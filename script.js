@@ -142,7 +142,7 @@ let interval_id = null;
 
 interval_id = setInterval(() => {
     display_img.src = `assets/family_${num}.png`;
-    num = (num + 1) % 9;
+    num = (num + 1) % 8;
 }, 2000);
 
 const messages = [
