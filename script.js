@@ -19,14 +19,17 @@ let input_buffer = "";
 
 const gaming = document.getElementById("gaming");
 
-document.addEventListener("click",()=>{
+function play_game_music(){
     
     gaming.muted = false; 
     gaming.loop = true;
     gaming.volume = 0.4;
     gaming.play();
+}
 
-})
+
+
+document.body.addEventListener("click", play_game_music)
 
 
 
@@ -111,6 +114,7 @@ function btn_continue() {
     display_container.classList.add("show");
     gaming.loop=false;
     gaming.pause();
+    document.removeEventListener("click",play_game_music);
     main_music.play();
     display_message().then(()=>{return final();});
 }
