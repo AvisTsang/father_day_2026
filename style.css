@@ -328,8 +328,8 @@ body {
     
     .display_container .display_image {
 
-        height : 350px;
-
+        width : 400px;
+        height : auto;
     }
 
 }
