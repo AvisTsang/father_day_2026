@@ -329,21 +329,36 @@ body {
 
 @media screen and (max-width: 950px){
 
+
+    body{
+        padding : 0px;
+    }
+
     .screen_lock{
         padding : 0px;
-        flex-direction: row;
+        flex-direction: column;
         gap : 10px;
         justify-content: center;
         align-items: center;
     }
 
     .screen_lock .image_container img{
-        width : 200px;
+        width : 150px;
+        margin : 30px;
     }
 
     .screen_lock .lock{
         padding : 0px;
-        width : 400px;
+        width : 300px;
+        height : 500px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .screen_lock .lock .lock_row_container .lock_row .btn{
+        width : 60px;
+        height : 60px;
     }
 
     
@@ -360,14 +375,27 @@ body {
     }
 
     .screen_lock .lock .display{ 
-        width : 280px;
-        height : 120px;
+        width : 250px;
+        height : 150px;
+    }
+    .screen_lock .lock .display p{ 
+        font-size: 20px;
     }
 
     .screen_lock .lock{
-        padding : 60px 0px ;
+        padding : 40px 0px ;
     }
     
+    .display_container{
+        width : 100%;
+    }
+    .display_container .display_image{
+        width : 100%;
+    }
+
+    .final_text{
+        font-size: 30px;
+    }
 
 
 }
