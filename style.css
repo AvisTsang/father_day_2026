@@ -326,7 +326,7 @@ body {
     }
 
     
-    .display_container .display_image {
+    .display_container .display_image img{
 
         width : 400px;
         height : auto;
