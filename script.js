@@ -19,12 +19,12 @@ let input_buffer = "";
 
 const gaming = document.getElementById("gaming");
 
-document.addEventListener("DOMContentLoaded",()=>{
-    music.muted = false; 
-    gaming.loop = true;
-    gaming.volume = 0.4;
-    gaming.play();
-})
+
+music.muted = false; 
+gaming.loop = true;
+gaming.volume = 0.4;
+gaming.play();
+
 
 
 function append_to_display(value) {
