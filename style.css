@@ -314,11 +314,27 @@ body {
     animation : appear 1.2s ease;
 }
 
-
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1300px){
+    
     .screen_lock{
+        padding : 0px;
+        flex-direction: row;
         flex-wrap: wrap;
-        gap : 15px;
+        gap : 30px;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width: 950px){
+
+    .screen_lock{
+        padding : 0px;
+        flex-direction: row;
+        gap : 10px;
+        justify-content: center;
+        align-items: center;
     }
 
     .screen_lock .image_container img{
@@ -326,6 +342,7 @@ body {
     }
 
     .screen_lock .lock{
+        padding : 0px;
         width : 400px;
     }
 

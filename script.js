@@ -20,7 +20,7 @@ let input_buffer = "";
 const gaming = document.getElementById("gaming");
 
 
-music.muted = false; 
+gaming.muted = false; 
 gaming.loop = true;
 gaming.volume = 0.4;
 gaming.play();
