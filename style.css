@@ -266,8 +266,8 @@ body {
     text-align: left;
     padding : 5px 20px;
     border-radius: 20px 20px 0px 0px;
-    background-color: #3447aa;
-    background-color: #f15153;
+    /* background-color: #3447aa;
+    background-color: #f15153; */
     background-color: #03363d;
     text-wrap: wrap;
 }

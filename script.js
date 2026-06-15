@@ -1,12 +1,12 @@
 
 const today = new Date();
 
-today_month = today.getMonth() + 1;
-today_date = today.getDate();
+let today_month = today.getMonth() + 1;
+let today_date = today.getDate();
 // console.log(today.getDate());
 // console.log(today.getMonth());
 
-today_month_double = (today_month < 10) ? ("0" + today_month) : today_month;
+let today_month_double = (today_month < 10) ? ("0" + today_month) : today_month;
 today_date_double = (today_date < 10) ? ("0" + today_date) : today_date;
 
 
@@ -19,11 +19,14 @@ let input_buffer = "";
 
 const gaming = document.getElementById("gaming");
 
+document.addEventListener("click",()=>{
+    
+    gaming.muted = false; 
+    gaming.loop = true;
+    gaming.volume = 0.4;
+    gaming.play();
 
-gaming.muted = false; 
-gaming.loop = true;
-gaming.volume = 0.4;
-gaming.play();
+})
 
 
 
