@@ -390,7 +390,8 @@ body {
         width : 100%;
     }
     .display_container .display_image{
-        width : 100%;
+        width : 80%;
+        height :auto;
     }
 
     .final_text{
