@@ -226,6 +226,7 @@ function display_message() {
                 const pos = getRandomPosition();
                 msg.style.left = pos.left + "px";
                 msg.style.top = pos.top + "px";
+                msg.style.rotate = `z ${Math.random()*20 - 5}deg`
     
                 display_container.appendChild(msg);
     
