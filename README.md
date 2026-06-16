@@ -10,12 +10,13 @@ Happy Father's Day Celebration Website
 
 Computer version:
 <div style="display: flex; justify-content: center; align-items: center">
-  <img src="assets/computer_version.png.png" alt="Computer version" style="max-width: 100%; max-height: 100%;">
+  <img src="computer_version.png" alt="Computer version" style="max-width: 100%; max-height: 100%;">
 </div>
 
 mobile version:
-<div style="display: flex; justify-content: center; align-items: center">
-  <img src="assets/computer_version.png.png" alt="Computer version" style="max-width: 100%; max-height: 100%;">
+<div style="display: flex; justify-content: center; align-items: center ;gap : 20px">
+  <img src="mobile_version_login.png" alt="mobile version" style="height : 300px">
+  <img src="mobile_version_showcase.png" alt="mobile version" style="height : 300px">
 </div>
 
 
